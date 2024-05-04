@@ -186,12 +186,13 @@ fn usage() {
     let usage = r#"
 Usage: log-viewer [OPTIONS]
 
-Options:
-    -h, --help                 帮助信息
-    -n,                        下一次匹配
-    -b,                        记录当前匹配内容
-    -d,                        结束匹配
+Options[交互指令]:
+    n,                        下一次匹配
+    b,                        记录当前匹配内容
+    d,                        结束匹配
 
+Options[查询参数]:
+    -h, --help                 帮助信息
     -num,                      匹配文本前后内容的行数
     -s,                        搜索文本
     -f,                        搜索数据源
